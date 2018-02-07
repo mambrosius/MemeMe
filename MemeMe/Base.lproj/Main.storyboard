@@ -49,14 +49,21 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="40"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" keyboardAppearance="alert"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BOTTON" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QAg-Lj-Skc">
                                 <rect key="frame" x="0.0" y="549" width="375" height="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="40"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" keyboardAppearance="alert"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N53-mQ-tFr">
+                                <rect key="frame" x="20" y="60" width="40" height="30"/>
+                                <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="shareMeme:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jLv-9Y-0dI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.10980390757322311" green="0.10980390757322311" blue="0.10980390757322311" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -64,6 +71,7 @@
                             <constraint firstItem="0oB-VF-RTJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="0lI-Xg-gav"/>
                             <constraint firstItem="JfS-7G-S2H" firstAttribute="centerX" secondItem="0oB-VF-RTJ" secondAttribute="centerX" id="KiS-Zs-Wbd"/>
                             <constraint firstItem="xWn-pD-KsS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LBB-1g-cQt"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="N53-mQ-tFr" secondAttribute="trailing" constant="20" symbolic="YES" id="OjO-CZ-1gn"/>
                             <constraint firstItem="QAg-Lj-Skc" firstAttribute="width" secondItem="0oB-VF-RTJ" secondAttribute="width" id="ReD-92-t06"/>
                             <constraint firstItem="JfS-7G-S2H" firstAttribute="width" secondItem="0oB-VF-RTJ" secondAttribute="width" id="WGQ-7C-fpm"/>
                             <constraint firstItem="0oB-VF-RTJ" firstAttribute="top" secondItem="JfS-7G-S2H" secondAttribute="top" constant="-30" id="Z9C-wM-4Ke"/>
@@ -72,6 +80,8 @@
                             <constraint firstItem="xWn-pD-KsS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="hcq-mX-Z64"/>
                             <constraint firstItem="xWn-pD-KsS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lqT-jQ-RBa"/>
                             <constraint firstItem="xWn-pD-KsS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-44" id="muC-Sk-JSq"/>
+                            <constraint firstItem="N53-mQ-tFr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nhh-2u-Llr"/>
+                            <constraint firstItem="N53-mQ-tFr" firstAttribute="top" secondItem="0oB-VF-RTJ" secondAttribute="top" constant="20" id="pJk-Sc-Bgt"/>
                             <constraint firstItem="0oB-VF-RTJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u8m-rj-hPj"/>
                             <constraint firstItem="0oB-VF-RTJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="u9V-iy-I54"/>
                         </constraints>
@@ -81,6 +91,8 @@
                         <outlet property="bottomTextField" destination="QAg-Lj-Skc" id="Jdx-3r-of1"/>
                         <outlet property="cameraButton" destination="UcL-7E-rSY" id="CCE-r7-CmB"/>
                         <outlet property="imageView" destination="0oB-VF-RTJ" id="K3w-OZ-LH1"/>
+                        <outlet property="shareButton" destination="N53-mQ-tFr" id="wIP-2s-a9F"/>
+                        <outlet property="toolBar" destination="xWn-pD-KsS" id="1B8-68-g99"/>
                         <outlet property="topTextField" destination="JfS-7G-S2H" id="IxQ-78-1iG"/>
                     </connections>
                 </viewController>

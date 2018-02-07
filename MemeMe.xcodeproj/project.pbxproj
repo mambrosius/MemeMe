@@ -12,6 +12,9 @@
 		ED1748CA2029C63A00CADF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1748C82029C63A00CADF53 /* Main.storyboard */; };
 		ED1748CC2029C63A00CADF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1748CB2029C63A00CADF53 /* Assets.xcassets */; };
 		ED1748CF2029C63A00CADF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1748CD2029C63A00CADF53 /* LaunchScreen.storyboard */; };
+		ED1748D7202AF76C00CADF53 /* TopTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748D6202AF76C00CADF53 /* TopTextFieldDelegate.swift */; };
+		ED1748D9202AF90000CADF53 /* BottomTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748D8202AF90000CADF53 /* BottomTextFieldDelegate.swift */; };
+		ED1748DE202B06BF00CADF53 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748DD202B06BF00CADF53 /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		ED1748CB2029C63A00CADF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1748CE2029C63A00CADF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1748D02029C63A00CADF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1748D6202AF76C00CADF53 /* TopTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTextFieldDelegate.swift; sourceTree = "<group>"; };
+		ED1748D8202AF90000CADF53 /* BottomTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextFieldDelegate.swift; sourceTree = "<group>"; };
+		ED1748DD202B06BF00CADF53 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				ED1748C42029C63A00CADF53 /* AppDelegate.swift */,
+				ED1748DD202B06BF00CADF53 /* Meme.swift */,
 				ED1748C62029C63A00CADF53 /* ViewController.swift */,
 				ED1748C82029C63A00CADF53 /* Main.storyboard */,
 				ED1748CB2029C63A00CADF53 /* Assets.xcassets */,
 				ED1748CD2029C63A00CADF53 /* LaunchScreen.storyboard */,
 				ED1748D02029C63A00CADF53 /* Info.plist */,
+				ED1748DC202B058900CADF53 /* TextFieldDelegates */,
 			);
 			path = MemeMe;
+			sourceTree = "<group>";
+		};
+		ED1748DC202B058900CADF53 /* TextFieldDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				ED1748D6202AF76C00CADF53 /* TopTextFieldDelegate.swift */,
+				ED1748D8202AF90000CADF53 /* BottomTextFieldDelegate.swift */,
+			);
+			path = TextFieldDelegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1748D7202AF76C00CADF53 /* TopTextFieldDelegate.swift in Sources */,
+				ED1748D9202AF90000CADF53 /* BottomTextFieldDelegate.swift in Sources */,
 				ED1748C72029C63A00CADF53 /* ViewController.swift in Sources */,
 				ED1748C52029C63A00CADF53 /* AppDelegate.swift in Sources */,
+				ED1748DE202B06BF00CADF53 /* Meme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
