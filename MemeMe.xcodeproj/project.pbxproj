@@ -8,26 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		ED1748C52029C63A00CADF53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748C42029C63A00CADF53 /* AppDelegate.swift */; };
-		ED1748C72029C63A00CADF53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748C62029C63A00CADF53 /* ViewController.swift */; };
+		ED1748C72029C63A00CADF53 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748C62029C63A00CADF53 /* EditViewController.swift */; };
 		ED1748CA2029C63A00CADF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1748C82029C63A00CADF53 /* Main.storyboard */; };
 		ED1748CC2029C63A00CADF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1748CB2029C63A00CADF53 /* Assets.xcassets */; };
 		ED1748CF2029C63A00CADF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1748CD2029C63A00CADF53 /* LaunchScreen.storyboard */; };
-		ED1748D7202AF76C00CADF53 /* TopTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748D6202AF76C00CADF53 /* TopTextFieldDelegate.swift */; };
-		ED1748D9202AF90000CADF53 /* BottomTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748D8202AF90000CADF53 /* BottomTextFieldDelegate.swift */; };
+		ED1748D7202AF76C00CADF53 /* TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748D6202AF76C00CADF53 /* TextFieldDelegate.swift */; };
 		ED1748DE202B06BF00CADF53 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1748DD202B06BF00CADF53 /* Meme.swift */; };
+		ED1ED6BD202E035B00360AB6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ED6BC202E035B00360AB6 /* TableViewController.swift */; };
+		ED1ED6BF2032F70300360AB6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1ED6BE2032F70300360AB6 /* DetailViewController.swift */; };
+		EDA510E22033140600A49FE6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA510E12033140600A49FE6 /* TableViewCell.swift */; };
+		EDA510E420334DA500A49FE6 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA510E320334DA500A49FE6 /* CollectionViewController.swift */; };
+		EDA510E720334F0000A49FE6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA510E620334F0000A49FE6 /* CollectionViewCell.swift */; };
+		EDA510E9203710DE00A49FE6 /* KeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA510E8203710DE00A49FE6 /* KeyboardListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED1748C12029C63A00CADF53 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1748C42029C63A00CADF53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED1748C62029C63A00CADF53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED1748C62029C63A00CADF53 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		ED1748C92029C63A00CADF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED1748CB2029C63A00CADF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1748CE2029C63A00CADF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1748D02029C63A00CADF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED1748D6202AF76C00CADF53 /* TopTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTextFieldDelegate.swift; sourceTree = "<group>"; };
-		ED1748D8202AF90000CADF53 /* BottomTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextFieldDelegate.swift; sourceTree = "<group>"; };
+		ED1748D6202AF76C00CADF53 /* TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegate.swift; sourceTree = "<group>"; };
 		ED1748DD202B06BF00CADF53 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		ED1ED6BC202E035B00360AB6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ED1ED6BE2032F70300360AB6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EDA510E12033140600A49FE6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EDA510E320334DA500A49FE6 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EDA510E620334F0000A49FE6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EDA510E8203710DE00A49FE6 /* KeyboardListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,25 +70,70 @@
 		ED1748C32029C63A00CADF53 /* MemeMe */ = {
 			isa = PBXGroup;
 			children = (
-				ED1748C42029C63A00CADF53 /* AppDelegate.swift */,
-				ED1748DD202B06BF00CADF53 /* Meme.swift */,
-				ED1748C62029C63A00CADF53 /* ViewController.swift */,
-				ED1748C82029C63A00CADF53 /* Main.storyboard */,
+				EDA510EC20373C1B00A49FE6 /* Models */,
+				ED1ED6C02032F72100360AB6 /* ViewControllers */,
+				ED1748DC202B058900CADF53 /* Delegates */,
+				EDA510EA203710E500A49FE6 /* Listeners */,
+				EDA510E520334EC900A49FE6 /* CustomCells */,
+				EDA510EB20373C0200A49FE6 /* Storyboards */,
 				ED1748CB2029C63A00CADF53 /* Assets.xcassets */,
-				ED1748CD2029C63A00CADF53 /* LaunchScreen.storyboard */,
 				ED1748D02029C63A00CADF53 /* Info.plist */,
-				ED1748DC202B058900CADF53 /* TextFieldDelegates */,
 			);
 			path = MemeMe;
 			sourceTree = "<group>";
 		};
-		ED1748DC202B058900CADF53 /* TextFieldDelegates */ = {
+		ED1748DC202B058900CADF53 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				ED1748D6202AF76C00CADF53 /* TopTextFieldDelegate.swift */,
-				ED1748D8202AF90000CADF53 /* BottomTextFieldDelegate.swift */,
+				ED1748C42029C63A00CADF53 /* AppDelegate.swift */,
+				ED1748D6202AF76C00CADF53 /* TextFieldDelegate.swift */,
 			);
-			path = TextFieldDelegates;
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		ED1ED6C02032F72100360AB6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED1748C62029C63A00CADF53 /* EditViewController.swift */,
+				ED1ED6BC202E035B00360AB6 /* TableViewController.swift */,
+				ED1ED6BE2032F70300360AB6 /* DetailViewController.swift */,
+				EDA510E320334DA500A49FE6 /* CollectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDA510E520334EC900A49FE6 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EDA510E12033140600A49FE6 /* TableViewCell.swift */,
+				EDA510E620334F0000A49FE6 /* CollectionViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EDA510EA203710E500A49FE6 /* Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				EDA510E8203710DE00A49FE6 /* KeyboardListener.swift */,
+			);
+			path = Listeners;
+			sourceTree = "<group>";
+		};
+		EDA510EB20373C0200A49FE6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ED1748C82029C63A00CADF53 /* Main.storyboard */,
+				ED1748CD2029C63A00CADF53 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDA510EC20373C1B00A49FE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED1748DD202B06BF00CADF53 /* Meme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,11 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1748D7202AF76C00CADF53 /* TopTextFieldDelegate.swift in Sources */,
-				ED1748D9202AF90000CADF53 /* BottomTextFieldDelegate.swift in Sources */,
-				ED1748C72029C63A00CADF53 /* ViewController.swift in Sources */,
+				EDA510E720334F0000A49FE6 /* CollectionViewCell.swift in Sources */,
+				ED1748D7202AF76C00CADF53 /* TextFieldDelegate.swift in Sources */,
+				EDA510E22033140600A49FE6 /* TableViewCell.swift in Sources */,
+				ED1ED6BD202E035B00360AB6 /* TableViewController.swift in Sources */,
+				EDA510E420334DA500A49FE6 /* CollectionViewController.swift in Sources */,
+				ED1748C72029C63A00CADF53 /* EditViewController.swift in Sources */,
 				ED1748C52029C63A00CADF53 /* AppDelegate.swift in Sources */,
 				ED1748DE202B06BF00CADF53 /* Meme.swift in Sources */,
+				ED1ED6BF2032F70300360AB6 /* DetailViewController.swift in Sources */,
+				EDA510E9203710DE00A49FE6 /* KeyboardListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
